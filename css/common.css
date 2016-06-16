@@ -1,0 +1,249 @@
+			body,
+			html,
+			.background {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.background {}
+			
+			#first_page_bg {
+				width: 100%;
+				height: 100%;
+				background-image: url(../img/0.jpg);
+				/*opacity: 0.9;*/
+			}
+			
+			.first_page_content {
+				background: rgba(255, 255, 255, 0.2);
+				width: 100%;
+				height: 100%;
+			}
+			
+			.carousel,
+			.carousel-inner,
+			.item {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.carousel-content {
+				margin-top: 18%;
+			}
+			
+			.carousel-content span {
+				color: white;
+				font-size: 50px;
+				display: block;
+				margin-left: 33%;
+			}
+			
+			.divider {
+				width: 50%;
+			}
+			
+			#navi {
+				height: 13%;
+				background: transparent;
+				position: fixed;
+				top: 0px;
+				font-size: 15px;
+				font-family: "微软雅黑";
+				width: 100%;
+			}
+			
+			.container-fluid,
+			.nav,
+			.nav li,
+			.nav li a {
+				height: 100%;
+				line-height: 50px;
+			}
+			
+			.nav li a {
+				color: white;
+			}
+			
+			.second_page {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.second_page .title {
+				width: 100%;
+				margin-top: 100px;
+				text-align: center;
+				margin-bottom: 70px;
+			}
+			
+			.row .col-md-3 {
+				padding: 15px;
+			}
+			
+			.second_page .col {
+				border: 1px solid lightgray;
+				text-align: center;
+				padding-bottom: 60px;
+				padding-top: 30px;
+				border-bottom: 2px solid rgb(255, 162, 0);
+				height: 274px;
+			}
+			
+			.orange {
+				height: 1px;
+				width: 10%;
+				background: rgb(255, 162, 0);
+			}
+			
+			.bgColor {
+				background: rgb(255, 162, 0);
+				position: absolute;
+				height: 0px;
+				bottom: 15px;
+				width: 90%;
+				padding: 0px;
+			}
+			
+			.consult {
+				position: absolute;
+				top: 72%;
+				border: 1px solid white;
+				border-radius: 5px;
+				width: 120px;
+				height: 50px;
+				left: 45%;
+				text-align: center;
+			}
+			
+			.consult p {
+				height: 100%;
+				width: 100%;
+				color: white;
+				font-size: 20px;
+				font-weight: 500;
+				padding-top: 10px;
+			}
+			
+			.page,
+			.three_page,
+			.row,
+			.box,
+			.page_four {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.three_page .col-md-5 {
+				background: rgb(245, 244, 240);
+				text-align: right;
+				height: 100%;
+			}
+			
+			.three_page .col-md-5 img {
+				display: block;
+				margin-top: 30%;
+			}
+			
+			.three_page .col-md-7 {
+				height: 100%;
+				background: rgb(245, 245, 245);
+			}
+			
+			.content {
+				max-width: 70%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				margin-top: 10%;
+			}
+			
+			.page_four {
+				background: url(../img/yun.gif) no-repeat;
+				background-size: cover;
+			}
+			
+			.four_content {
+				background: rgba(0, 0, 0, 0.7);
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			
+			.four_content h2 {
+				color: rgb(255, 162, 0);
+				font-weight: 600;
+				font-size: 30px;
+				display: block;
+				position: absolute;
+				top: 49%;
+				text-align: center;
+				width: 100%;
+			}
+			
+			.five_page .title {
+				margin-bottom: 30px;
+				width: 100%;
+				margin-top: 100px;
+				text-align: center;
+			}
+			
+			.f_divider {
+				width: 60%;
+			}
+			/*3d翻转*/
+			
+			.P3D {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.back {
+				background: black;
+				color: white;
+				text-align: center;
+				height: 270px;
+			}
+			
+			.common p {
+				max-width: 70%;
+				display: block;
+				margin: 0 auto;
+			}
+			
+			.five_page .row {
+				perspective: 1000;
+			}
+			
+			.five_page .row .col-md-3 {
+				position: relative;
+			}
+			
+			.five_page .P3D {
+				transform-style: preserve-3d;
+				transition: all 0.5s ease-in-out;
+			}
+			
+			.five_page .P3D .common {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+			}
+			
+			.front {
+				transform: rotate(0deg);
+			}
+			
+			.back {
+				transform: rotateY(180deg);
+			}
+			
+			.five_page .col-md-3:hover .P3D {
+				transform: rotateY(180deg);
+			}
+			
+			
+			.colorOrange{color:rgb(255, 162, 0) ;}
+			.goal{height: 40%;width: 100%;background: transparent;}
